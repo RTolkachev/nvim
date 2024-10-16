@@ -20,7 +20,8 @@ return {
                 liquid = { "prettier" },
                 lua = { "stylua" },
                 python = { "isort", "black" },
-                sql = { "sqlfmt" },
+                sql = { "sqlfluff" },
+                terraform = { "prettier" },
             },
             format_on_save = {
                 lsp_fallback = true,
